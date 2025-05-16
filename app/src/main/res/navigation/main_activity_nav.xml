@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/toprakSicaklikFragment">
+
+    <fragment
+        android:id="@+id/toprakSicaklikFragment"
+        android:name="com.ssyrix.tarlakontrol.ToprakSicaklikFragment"
+        android:label="fragment_toprak_sicaklik"
+        tools:layout="@layout/fragment_toprak_sicaklik" >
+        <action
+            android:id="@+id/havaSicaklikGecis"
+            app:destination="@id/havaSicaklikFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/havaSicaklikFragment"
+        android:name="com.ssyrix.tarlakontrol.HavaSicaklikFragment"
+        android:label="fragment_hava_sicaklik"
+        tools:layout="@layout/fragment_hava_sicaklik" >
+        <action
+            android:id="@+id/havaNemGecis"
+            app:destination="@id/havaNemFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/havaNemFragment"
+        android:name="com.ssyrix.tarlakontrol.HavaNemFragment"
+        android:label="fragment_hava_nem"
+        tools:layout="@layout/fragment_hava_nem" />
+</navigation>

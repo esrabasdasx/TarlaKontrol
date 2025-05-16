@@ -1,0 +1,39 @@
+# Android Studio
+.idea/
+*.iml
+
+# Gradle
+.gradle/
+local.properties
+
+# IntelliJ/IDEA özel dosyalar
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+
+# Build klasörleri
+/build/
+**/build/
+
+# Signing
+*.jks
+*.keystore
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# APK / AAB
+*.apk
+*.ap_
+
+# Jetpack Compose cache
+.compose-cache/
+
+# Android NDK & External Build
+/captures
+.externalNativeBuild/
+.cxx/

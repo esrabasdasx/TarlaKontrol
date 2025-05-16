@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "323049199717",
+    "firebase_url": "https://tarlakontrol-41579-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "tarlakontrol-41579",
+    "storage_bucket": "tarlakontrol-41579.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323049199717:android:05597659e4c68da5a24e8c",
+        "android_client_info": {
+          "package_name": "com.ssyrix.tarlakontrol"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoEixnZX5Fvz87CjXaNxaT9-LbQL8ejV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
